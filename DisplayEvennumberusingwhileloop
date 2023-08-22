@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public Class DisplayEvenNumber
+{
+public Static void main(String[] args)
+{
+int numner,i;
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the limit:");
+number=sc.nextInt();
+i=2;
+System.out.println("List of the Even Number:");
+While(i<=number)
+{
+System.out.println(i+"");
+i=i+2;
+}
+}
+}
